@@ -1,0 +1,14 @@
+$rose: #f6f1f1;
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+
+  background-color: $rose;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

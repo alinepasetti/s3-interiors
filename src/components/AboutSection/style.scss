@@ -1,0 +1,33 @@
+#about {
+  padding: 70px 5em;
+  @media screen and (max-width: 890px) {
+    padding: 70px 1em;
+  }
+  p {
+    padding: 0 0 2em;
+  }
+  .services_cards_list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1200px) {
+      justify-content: center;
+      .img {
+        margin: 0.5em;
+      }
+    }
+    .img {
+      width: 12.5em;
+      height: 12.5em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url('/images/services_circle_main_page.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}

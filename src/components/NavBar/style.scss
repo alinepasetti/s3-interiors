@@ -1,0 +1,36 @@
+$yellow: #eace16;
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  font-size: 20px;
+  > a {
+    display: flex;
+    align-items: center;
+    img {
+      width: 2em;
+      padding: 0.2em;
+    }
+  }
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      a {
+        text-decoration: none;
+        margin-right: 2em;
+        color: inherit;
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
+  }
+}

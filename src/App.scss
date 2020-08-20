@@ -1,0 +1,29 @@
+$rose: #f6f1f1;
+$grey: #c4c4c4;
+$yellow: #eace16;
+
+.App {
+  text-align: center;
+}
+
+html {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Josefin Slab', serif;
+}
+
+p,
+a {
+  font-family: 'Buda', serif;
+}
+
+.yellow {
+  color: $yellow;
+}

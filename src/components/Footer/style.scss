@@ -7,8 +7,14 @@ footer {
   padding: 1em 2em;
 
   background-color: $rose;
+  @media screen and (max-width: 590px) {
+    flex-direction: column;
+  }
   a {
     text-decoration: none;
     color: inherit;
+    &:hover {
+      color: #9c6464;
+    }
   }
 }

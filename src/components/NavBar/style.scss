@@ -7,6 +7,7 @@ nav {
   position: fixed;
   background-color: white;
   width: 100%;
+  max-width: 100%;
   top: 0;
   font-size: 20px;
   > a {
@@ -23,9 +24,12 @@ nav {
       list-style: none;
       display: flex;
       align-items: center;
+      &:nth-child(1) a {
+        margin-right: 2em;
+      }
       a {
         text-decoration: none;
-        margin-right: 2em;
+
         color: inherit;
         &:hover {
           color: $yellow;

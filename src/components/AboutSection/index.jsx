@@ -14,13 +14,13 @@ const AboutSection = () => {
         <span className="yellow">main</span> S o l u t i o n s for you:
       </p>
       <div className="services_cards_list">
-        <Link className="img">
+        <Link to="/interior-design" className="img">
           <h3>interior design</h3>
         </Link>
-        <Link className="img">
+        <Link to="/project-management" className="img">
           <h3>project management</h3>
         </Link>
-        <Link className="img">
+        <Link to="/ffe" className="img">
           <h3>FF&E</h3>
         </Link>
       </div>

@@ -1,0 +1,15 @@
+#under-construction-view {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/images/main_banner_image.png');
+  background-color: #9c6464;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1 {
+    color: white;
+    height: 5%;
+  }
+}

@@ -4,9 +4,9 @@ import './style.scss';
 const Footer = () => {
   return (
     <footer>
-      <a href="">hello@s3interiors.co.uk</a>
+      <a href="mailto: hello@s3interiors.co.uk">hello@s3interiors.co.uk</a>
       <p>78503645312</p>
-      <a href="">Instagram</a>
+      <a href="https://www.instagram.com/s3.interiors/">Instagram</a>
     </footer>
   );
 };

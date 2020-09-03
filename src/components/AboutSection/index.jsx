@@ -21,7 +21,7 @@ const AboutSection = () => {
           <h3>project management</h3>
         </Link>
         <Link to="/ffe" className="img">
-          <h3>FF&E</h3>
+          <h3>FF&E Supply</h3>
         </Link>
       </div>
     </section>

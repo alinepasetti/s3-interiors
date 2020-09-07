@@ -10,10 +10,10 @@ const NavBar = () => {
       </Link>
       <ul>
         <li>
-          <a href="#about">Who?</a>
+          <a href="/#about">Who?</a>
         </li>
         <li>
-          <Link to="#">Say Hi!</Link>
+          <a href="mailto:hello@s3interiors.co.uk">Say Hi!</a>
         </li>
       </ul>
     </nav>

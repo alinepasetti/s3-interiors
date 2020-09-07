@@ -7,10 +7,11 @@ import AboutSection from '../../components/AboutSection';
 import SentencesSection from '../../components/SentencesSection';
 import Footer from '../../components/Footer';
 import Registration from '../../components/Registration';
+// import ModalTest from '../../components/ModalTest';
 
 const HomeView = () => {
   return (
-    <Fragment>
+    <Fragment className="home">
       <MainBanner />
       <AboutSection />
       <SentencesSection />

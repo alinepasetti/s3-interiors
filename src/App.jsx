@@ -8,7 +8,6 @@ import FFESupplyView from './views/FFESupplyView';
 import ProjectManagementView from './views/ProjectManagementView';
 
 import NavBar from './components/NavBar';
-import UnderConstruction from './views/UnderConstruction';
 
 function App() {
   return (

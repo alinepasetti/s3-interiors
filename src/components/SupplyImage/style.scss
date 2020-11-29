@@ -1,0 +1,8 @@
+.supply-image {
+  width: 23%;
+  margin: 1%;
+  min-width: 250px;
+  @media screen and (max-width: 592px) {
+    width: 100%;
+  }
+}

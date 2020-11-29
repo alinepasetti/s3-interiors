@@ -1,0 +1,37 @@
+.download-catalogs {
+  p {
+    width: 50%;
+    padding: 1.5em;
+    background-image: url('/images/downoad_catalog_message_background.png');
+    @media screen and (max-width: 945px) {
+      width: 100%;
+    }
+  }
+  a {
+    background-image: url('/images/services_circle_main_page.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+    color: inherit;
+    min-width: 230px;
+    height: 235px;
+    text-align: center;
+    margin-right: calc(25% - 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 945px) {
+      margin: 0 auto;
+    }
+    h3 {
+      padding: 0 0.5em;
+    }
+  }
+  display: flex;
+  padding: 0 1.5em 1.5em 0;
+  text-align: justify;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

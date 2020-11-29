@@ -3,6 +3,9 @@ import './App.scss';
 import { Switch, Route } from 'react-router-dom';
 
 import HomeView from './views/HomeView';
+import InteriorDesignView from './views/InteriorDesignView';
+import FFESupplyView from './views/FFESupplyView';
+import ProjectManagementView from './views/ProjectManagementView';
 
 import NavBar from './components/NavBar';
 import UnderConstruction from './views/UnderConstruction';
@@ -16,13 +19,13 @@ function App() {
           <HomeView />
         </Route>
         <Route path="/interior-design">
-          <UnderConstruction />
+          <InteriorDesignView />
         </Route>
         <Route path="/project-management">
-          <UnderConstruction />
+          <ProjectManagementView />
         </Route>
         <Route path="/ffe">
-          <UnderConstruction />
+          <FFESupplyView />
         </Route>
       </Switch>
     </div>

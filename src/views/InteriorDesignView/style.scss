@@ -1,0 +1,21 @@
+.interior-desig-img {
+  background-image: url('/images/interior_design_banner_image.png');
+  height: calc(100vh - 30vh - 70px); // 100% do viewport height - os 30vh do banner acima - 70px da margem superior da pág
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-area {
+  padding: 1.5em 2em;
+  p {
+    text-align: justify;
+  }
+}
+
+.interior-design-circles-section {
+  display: flex;
+  padding: 0 5.5em 1.5em;
+  flex-wrap: wrap;
+  justify-content: center;
+}

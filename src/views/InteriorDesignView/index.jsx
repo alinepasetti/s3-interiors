@@ -4,6 +4,8 @@ import './style.scss';
 
 import SecondaryPageBanner from '../../components/SecondaryPagesBanner';
 import InteriorDesignCircles from '../../components/InteriorDesignCircles';
+import Footer from '../../components/Footer';
+import Registration from '../../components/Registration';
 
 class InteriorDesignView extends Component {
   state = {
@@ -29,10 +31,12 @@ class InteriorDesignView extends Component {
           </p>
         </section>
         <section className='interior-design-circles-section'>
-        {this.state.characteristics.map(e => {
-          return <InteriorDesignCircles title={e} />
+        {this.state.characteristics.map((e, id) => {
+          return <InteriorDesignCircles key={id} title={e} />
         })}
         </section>
+        <Footer />
+        <Registration />
       </Fragment>
     );
   }

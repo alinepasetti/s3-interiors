@@ -1,0 +1,12 @@
+.project-management-sentence {
+  text-align: right;
+  line-height: 1.5em;
+  padding: 0.5em 1.5em;
+  @media screen and (max-width: 1200px) {
+    font-size: 1.5em;
+  }
+  @media screen and (max-width: 710px) {
+    font-size: 0.9em;
+  }
+}
+

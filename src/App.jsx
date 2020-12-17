@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.scss';
-import { Switch, Route } from 'react-router-dom';
+import React from "react";
+import "./App.scss";
+import { Switch, Route } from "react-router-dom";
 
-import HomeView from './views/HomeView';
-import InteriorDesignView from './views/InteriorDesignView';
-import FFESupplyView from './views/FFESupplyView';
-import ProjectManagementView from './views/ProjectManagementView';
+import HomeView from "./views/HomeView";
+import InteriorDesignView from "./views/InteriorDesignView";
+import FFESupplyView from "./views/FFESupplyView";
+import ProjectManagementView from "./views/ProjectManagementView";
 
-import NavBar from './components/NavBar';
+import NavBar from "./components/NavBar";
 
 function App() {
   return (

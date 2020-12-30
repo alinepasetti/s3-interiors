@@ -4,34 +4,15 @@ $darker-yellow: #a5910f;
 header.main-banner {
   height: calc(100vh - 70px);
   margin-top: 70px;
-  background-image: url('/images/main_banner_image.png');
+  background-image: url("/images/main_banner_image.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  // h1 {
-  //   color: white;
-  //   margin-bottom: 2em;
-  //   padding: 0 1em;
-  //   line-height: 1.35em;
-  //   @media screen and (max-width: 800px) {
-  //     font-size: 1.25em;
-  //     padding: 0.4em;
-  //   }
-  // }
-  // a {
-  //   text-decoration: none;
-  //   background-color: $darker-yellow;
-  //   color: white;
-  //   border-radius: 2px;
-  //   padding: 0.75em 1.5em;
-  //   min-width: 13%;
-  //   transition: 300ms ease color;
-  //   &:hover {
-  //     color: #5f5309;
-  //   }
-  // }
+  @media screen and (max-width: 641px) {
+    background-repeat: no-repeat;
+    @supports (-webkit-touch-callout: none) {
+      /* CSS specific to iOS devices */ 
+      background-attachment: scroll;
+    }
+  }
 }

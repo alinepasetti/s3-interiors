@@ -9,7 +9,6 @@ const NavBar = () => {
         <img src="/images/S3_Logo.png" alt="s3 logo" />
       </Link>
       <div>
-        <Link to="/interior-design">Interior Design</Link>
         <Link to="/project-management">Project Management</Link>
         <Link to="/ffe">FF&E Supply</Link>
       </div>
